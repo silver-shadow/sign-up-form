@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Skranji&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -13,10 +17,55 @@
                 <img src="images/odin-lined.png" alt="odin project logo">
                 <h1>ODIN</h1>
             </div>
-            <span>Photo by <a href="https://unsplash.com/@pawel_czerwinski">Pawel Czerwinski</a> on Unsplash</span>
+            <span>Photo by <a href="https://unsplash.com/@pawel_czerwinski">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/red-and-blue-wallpaper-6lQDFGOB1iw">Unsplash</a></span>
         </div>
         <div class="right">
-
+            <div class="header">
+                <p>This is not a real online service! You know you need something like this in 
+                    your life to help you realize your deepest dreams. Sign up now to get started.</p>
+                <p>You <em>know</em> you want to.</p>
+            </div>
+            <div class="form-section">
+                <h2>Let's do this!</h2>
+                <form action="#">
+                    <div class="input">
+                        <div>
+                            <div>
+                                <label for="first_name">FIRST NAME</label>
+                                <input type="text" id="first_name">
+                            </div>
+                            <div>
+                                <label for="last_name">LAST NAME</label>
+                                <input type="text" id="last_name">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="email">EMAIL</label>
+                                <input type="text" id="email">
+                            </div>
+                            <div>
+                                <label for="phone">PHONE NUMBER</label>
+                                <input type="text" id="phone">
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <label for="psswd">PASSWORD</label>
+                                <input type="text" id="psswd">
+                            </div>
+                            <div>
+                                <label for="conf-passwd">CONFIRM PASSWORD</label>
+                                <input type="text" id="conf-passwd">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="submit">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </div>
         </div>
     </div>
 </body>

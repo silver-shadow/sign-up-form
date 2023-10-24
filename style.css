@@ -162,3 +162,13 @@ p>a
     text-decoration: none;
     font-weight: bolder;
 }
+
+.error
+{
+    border: 2px solid red;
+}
+
+.match
+{
+    border: 2px solid #00FF00;
+}
